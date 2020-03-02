@@ -20,8 +20,8 @@ public class SimpleInterest {
 		double rateInterest = sc.nextDouble();
 		double simpInt = (prAmount * timePeriod * rateInterest) / 100;
 		double cmpInt = (prAmount * Math.pow(1 + (rateInterest/100), timePeriod)) - prAmount;
-		ps.println("Simple Interest is :" + simpInt);
-		ps.println("Compound Interest is :"+ cmpInt);
+		ps.println("Simple Interest is :" + simpInt+"Rs");
+		ps.println("Compound Interest is :"+ cmpInt+"Rs");
 	}
 	catch(Exception e) {
 		ps.println("Invalid input!\nEnter the valid one!");

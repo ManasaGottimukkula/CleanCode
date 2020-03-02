@@ -18,22 +18,22 @@ public class Construction {
 			case 1:
 				ps.println("Please enter the area of house in sqfts :");
 				houseArea = sc.nextDouble();
-				ps.println("Total estimated cost is " + (1200 * houseArea));
+				ps.println("Total estimated cost is " + (1200 * houseArea)+"Rs");
 				break;
 			case 2:
 				ps.println("Please enter the area of house in sqfts :");
 				houseArea = sc.nextDouble();
-				ps.println("Total estimated cost is " + (1500 * houseArea));
+				ps.println("Total estimated cost is " + (1500 * houseArea)+"Rs");
 				break;
 			case 3:
 				ps.println("Please enter the area of house in sqfts :");
 				houseArea = sc.nextDouble();
-				ps.println("Total estimated cost is " + (1800 * houseArea));
+				ps.println("Total estimated cost is " + (1800 * houseArea)+"Rs");
 				break;
 			case 4:
 				ps.println("Please enter the area of house in sqfts :");
 				houseArea = sc.nextDouble();
-				ps.println("Total estimated cost is " + (2500 * houseArea));
+				ps.println("Total estimated cost is " + (2500 * houseArea)+"Rs");
 				break;
 			default:
 				ps.println("Select from the above options!");
